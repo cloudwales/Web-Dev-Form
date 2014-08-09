@@ -28,14 +28,14 @@
 
     <div class="container">
       <div class="header">
-        <h2 class="text-muted text-center">Web Development Questionnaire</h2>
+        <h2 class="text-muted text-center">Web Design Questionnaire</h2>
         <p><?php echo $this->session->flashdata('message'); ?></p>
         <?php if (isset($message)) {echo $message;} ?>
       </div>
 
       <div class="row marketing">
         <div class="col-lg-12">
-        <p><span class="text-danger">* required</span></p>
+        <p><span class="text-danger">* required fields</span></p>
         <h3>Contact Information</h3>
 
         
