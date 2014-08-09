@@ -2,20 +2,6 @@
 
 class Webform extends CI_Controller {
 	
-	/**
-	 * Design Questionnaire
-	 *
-	 * @package    WebForm
-	 * @author     Cloud Wales
-	 * @copyright  Copyright (c) 2014 cloud-wales.co.uk - all rights reserved
-	 * @license    Commercial
-	 * @link       http://www.cloud-wales.co.uk
-	 * 
-	 * 
-	 * This source file is distributed in the hope that it will be useful, but 
-	 * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
-	 * or FITNESS FOR A PARTICULAR PURPOSE. See the license files for details.
-	 */
 
 	public function __construct()
 	{
