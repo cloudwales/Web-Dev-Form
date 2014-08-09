@@ -1,13 +1,21 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Webform extends CI_Controller {
-
-	/*
-		This is a web designers webform to ask questions to their 
-	*/
-
-
-
+	
+	/**
+	 * Design Questionnaire
+	 *
+	 * @package    WebForm
+	 * @author     Cloud Wales
+	 * @copyright  Copyright (c) 2014 cloud-wales.co.uk - all rights reserved
+	 * @license    Commercial
+	 * @link       http://www.cloud-wales.co.uk
+	 * 
+	 * 
+	 * This source file is distributed in the hope that it will be useful, but 
+	 * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+	 * or FITNESS FOR A PARTICULAR PURPOSE. See the license files for details.
+	 */
 
 	public function __construct()
 	{
@@ -17,14 +25,16 @@ class Webform extends CI_Controller {
 	}
 
 
+	// DISPLAY FROM PAGE
 	public function index()
 	{
 		$this->load->view('webform');
 	}
 
+	// VALIDATE AND SEND THE EMAIL
 	public function send()
 	{
-		// Config
+		// CONFIG
 		$main_email = 'Your email address'; // Your email address to specify to and from address
 		$subject 	= 'please choose a subject'; // Please choose a subject for the email
 		$site_name	= 'Site name'; // Site name for the email headers
