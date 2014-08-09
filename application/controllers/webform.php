@@ -61,10 +61,10 @@ class Webform extends CI_Controller {
 
 		$services 			= 	array(
 			'webdesign'		=>	$this->input->post('webdesign'),
-			'website_repair'	=> 	$this->input->post('website_repair'),
+			'website_repair'=> 	$this->input->post('website_repair'),
 			'redesign'		=>	$this->input->post('redesign'),
-			'e_commerce'		=>	$this->input->post('e_commerce'),
-			'cms_design'		=>	$this->input->post('cms_design'),
+			'e_commerce'	=>	$this->input->post('e_commerce'),
+			'cms_design'	=>	$this->input->post('cms_design'),
 			'logo_design'	=> 	$this->input->post('logo_design'),
 			);
 		
